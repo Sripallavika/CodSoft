@@ -1,0 +1,27 @@
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.display {
+  grid-column: span 4;
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: right;
+}
+
+button {
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0c0c0;
+}
+
